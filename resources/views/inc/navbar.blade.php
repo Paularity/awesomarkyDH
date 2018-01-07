@@ -14,7 +14,7 @@
 </ul>
 
 <ul id="nav-top" class="hoverAnim">
-  <li class="nav-top-left text-left "> <img style="width:20%;height:20%;margin:10px 50px 0" src="images/logo.png" alt=""> </li>
+  <li class="nav-top-left" style="width:45%;height:50%;margin-left:4%"> <img src="images/logo.png" alt=""> </li>
 
   <li class="nav-top-right "><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
   <li class="nav-top-right"><a class="{{ Request::is('about-us') ? 'active' : '' }}" href="{{ URL::to('about-us') }}">About Us</a></li>

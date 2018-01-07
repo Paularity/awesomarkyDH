@@ -8410,7 +8410,7 @@ button.close {
 
 .nav-top-right {
   float: right;
-  margin: 3% 3% 3% 3%;
+  margin: 3% 3% 3% 0;
 }
 
 .nav-top-right a {
