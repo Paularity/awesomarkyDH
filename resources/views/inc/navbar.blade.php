@@ -1,6 +1,6 @@
 <ul id="nav">
 
-    <li>Location: Cleveland Cavalier, USA</li>
+    <li>Location: Boston Celtics, USA</li>
     <li>Email: awesomarky@gmail.com</li>
     <li style="float:right"> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
     <li style="float:right"> <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
