@@ -8571,6 +8571,17 @@ button.close {
   background-size: cover;
 }
 
+.dept-pic {
+  margin: 5% 0 0 0;
+  height: 100%;
+  width: 100%;
+}
+
+.dept-pic:hover {
+  -webkit-box-shadow: 0 4px 50px #aaaaaa;
+          box-shadow: 0 4px 50px #aaaaaa;
+}
+
 .tableShadow {
   padding: 0 3% 3%  3%;
   -webkit-box-shadow: 0 4px 50px #aaaaaa;

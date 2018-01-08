@@ -13,7 +13,7 @@
   </div>
 </div>
 
-<div class="row pads">
+<div class="row pads containerB">
   <div class="col-md-10">
     <h1> <strong>Cras ligula augue?</strong> </h1>
     <div style="border-bottom:2px solid #56B0D2;width:70px"></div>
