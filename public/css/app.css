@@ -8352,6 +8352,10 @@ button.close {
 
 
 
+.pads {
+  padding: 3%;
+}
+
 .active {
   color: "#004ea0";
   border-bottom: 2px solid white;
@@ -8565,6 +8569,12 @@ button.close {
   height: 220px;
   width: 260px;
   background-size: cover;
+}
+
+.tableShadow {
+  padding: 0 3% 3%  3%;
+  -webkit-box-shadow: 0 4px 50px #aaaaaa;
+          box-shadow: 0 4px 50px #aaaaaa;
 }
 
 /*!
