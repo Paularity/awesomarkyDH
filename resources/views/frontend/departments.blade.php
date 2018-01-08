@@ -15,27 +15,50 @@
 <div class="containerB text-content">
 
   <div class="row">
-    <div class="col-md-4">
-        <img src="images/departments/cardiology.jpg" alt="Docs" class="dept-pic">
-    </div>
-		<div class="col-md-4">
-        <img src="images/departments/gynaecology.jpg" alt="Docs" class="dept-pic">
-    </div>
-		<div class="col-md-4">
-        <img src="images/departments/Nephrology.jpg" alt="Docs" class="dept-pic">
-    </div>
-  </div>
 
+    <div class="col-md-4 wrapper">
+			<img src="images/departments/cardiology.jpg" alt="Docs" class="dept-pic">
+			<div class='description'>
+			<p class='description_content'>Cardiology</p>
+		</div>
+		</div>
+
+		<div class="col-md-4 wrapper">
+			<img src="images/departments/gynaecology.jpg" alt="Docs" class="dept-pic">
+			<div class='description'>
+			<p class='description_content'>Gynaecology</p>
+		</div>
+		</div>
+
+		<div class="col-md-4 wrapper">
+			<img src="images/departments/nephrology.jpg" alt="Docs" class="dept-pic">
+			<div class='description'>
+			<p class='description_content'>Nephrology</p>
+		</div>
+		</div>
+</div>
 	<div class="row">
-		<div class="col-md-4">
-				<img src="images/departments/neurology.jpg" alt="Docs" class="dept-pic">
+		<div class="col-md-4 wrapper">
+			<img src="images/departments/neurology.jpg" alt="Docs" class="dept-pic">
+			<div class='description'>
+			<p class='description_content'>Neurology</p>
 		</div>
-		<div class="col-md-4">
-				<img src="images/departments/pulmonary.jpg" alt="Docs" class="dept-pic">
 		</div>
-		<div class="col-md-4">
-				<img src="images/departments/traumotology.jpg" alt="Docs" class="dept-pic">
+
+		<div class="col-md-4 wrapper">
+			<img src="images/departments/traumotology.jpg" alt="Docs" class="dept-pic">
+			<div class='description'>
+			<p class='description_content'>Traumotology</p>
 		</div>
+		</div>
+
+		<div class="col-md-4 wrapper">
+			<img src="images/departments/pulmonary.jpg" alt="Docs" class="dept-pic">
+			<div class='description'>
+			<p class='description_content'>Pulmonary</p>
+		</div>
+		</div>
+
 	</div>
 
 </div>

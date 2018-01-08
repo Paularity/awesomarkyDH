@@ -57,11 +57,48 @@ var slide = 1;
   </div>
 </div>
 
-<div class="containerB text-content">
+<div class="containerB text-content text-center">
   <h2>Testimonials</h2>
   <div class="row">
+    <div class="col-md-4">
+      <figure class="snip1533">
+      <figcaption>
+        <blockquote>
+          <p>Aenonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cciis natoque.</p>
+        </blockquote>
+        <h3>Kyrie Irving</h3>
+        <h4>Boston Celtics</h4>
+      </figcaption>
+    </figure>
+    </div>
 
+    <div class="col-md-4">
+      <figure class="snip1533">
+        <figcaption>
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet, cr adipiing elit. Praesent vestim molestie lacus.</p>
+          </blockquote>
+          <h3>Stephen Curry</h3>
+          <h4>Golden State Warriors</h4>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="col-md-4">
+      <figure class="snip1533">
+        <figcaption>
+          <blockquote>
+            <p>Praesent vestim molestie lacus. Aenonummy hendrerit mauris. Phasellus porta.  </p>
+          </blockquote>
+          <h3>Lebron James</h3>
+          <h4>Cleveland Cavaliers</h4>
+        </figcaption>
+      </figure>
+    </div>
   </div>
+
+
+
 </div>
 
 @endsection
