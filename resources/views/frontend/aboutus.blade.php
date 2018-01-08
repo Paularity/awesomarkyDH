@@ -35,8 +35,8 @@
     </div>
   </div>
   </div>
-  <div class="col-md-2 well text-center" style="border-top: 5px solid #56B0D2">
-  <h3>Departments</h3>
+  <div class="col-md-2 well" style="border-top: 5px solid #56B0D2">
+  <h3 class="text-center">Departments</h3>
     <ul>
       <li>Neurology</li>
       <li>Traumatology</li>
