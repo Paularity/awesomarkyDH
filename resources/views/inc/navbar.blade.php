@@ -5,7 +5,7 @@
     <li style="float:right"> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
     <li style="float:right"> <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
     <li style="float:right"> <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-    <li style="float:right"><i>Make an Appointment Now!</i> <a href="#">Book an Appointment</a></li>
+    <li style="float:right"><i>Make an Appointment Now!</i> <a href="#"><strong>Book an Appointment</strong></a></li>
     <li style="float:right"></li>
     <li style="float:right"></li>
 

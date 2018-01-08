@@ -2,9 +2,9 @@
 
 @section('content')
 <div class="sliderContainer">
-  <div class="sliderDiv" id="slide1"><img src="https://ak9.picdn.net/shutterstock/videos/15657259/thumb/6.jpg"/></div>
-  <div class="sliderDiv" id="slide2"><img src="http://www.indiandoctor4u.com/wp-content/uploads/2015/12/Dr.-Najat-Dental-Center-Qatar-Health-and-Medical-Directory.jpg"/></div>
-  <div class="sliderDiv" id="slide3"><img src="http://pluspng.com/img-png/doctor-hd-png-medical-one-year-xii-studying-programthis-course-includes-extensive-training-tutorial-classes-doubt-remedial-classes-motivational-classes-and-also-final-1920.png"/></div>
+  <div class="sliderDiv" id="slide1"><img src="images/slide1.jpg" /></div>
+  <div class="sliderDiv" id="slide2"><img src="images/slide2.jpg" /></div>
+  <div class="sliderDiv" id="slide3"><img src="images/slide3.jpg" /></div>
 
 </div>
 
@@ -59,15 +59,7 @@ var slide = 1;
 
 <div class="containerB">
   <h2>Testimonials</h2>
-  <div class="col-md-4 text-center">
-
-  </div>
-
-  <div class="col-md-4 text-center">
-
-  </div>
-
-  <div class="col-md-4 text-center">
+  <div class="row">
 
   </div>
 </div>
