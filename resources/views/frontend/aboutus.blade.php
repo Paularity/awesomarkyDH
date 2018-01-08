@@ -19,19 +19,28 @@
     <div style="border-bottom:2px solid #56B0D2;width:70px"></div>
     <h4 style="line-height:1.50em;text-align: justify;">Integer ultricies pulvinar tempus. Cras scelerisque pulvinar quam in lacinia. Duis gravida eu enim in fermentum. Aenean tempor iaculis commodo. Integer nec sem sit amet felis vulputate rhoncus. Sed ante nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
   <div class="row">
-    <div class="col-xs-6 pads">
-       Pharetra et ultrices neque ornare aenean euismod elementum nisi. Augue eget arcu dictum varius duis.
+    <div class="col-xs-6 pads text-center">
+      <img class="about-pic" src="images/au1.png" alt="">
+      <h3>Amet</h3>
+      <p>Pharetra et ultrices neque ornare aenean euismod elementum nisi. Augue eget arcu dictum varius duis.</p>
+
     </div>
-    <div class="col-xs-6 pads">
-      Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc.
+    <div class="col-xs-6 pads text-center">
+      <img class="about-pic" src="images/au2.png" alt="">
+      <h3>Lorem</h3>
+     <p>Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc.</p>
     </div>
   </div>
   <div class="row">
-    <div class="col-xs-6 pads">
-      Posuere lorem ipsum dolor sit amet consectetur. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam.
+    <div class="col-xs-6 pads text-center">
+      <img class="about-pic" src="images/au3.png" alt="">
+      <h3>Ipsum</h3>
+      <p>Posuere lorem ipsum dolor sit amet consectetur. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam.</p>
     </div>
-    <div class="col-xs-6 pads">
-      Eget nunc lobortis mattis aliquam faucibus purus in massa tempor.
+    <div class="col-xs-6 pads text-center">
+      <img class="about-pic" src="images/au4.png" alt="">
+      <h3>Dolor</h3>
+      <p> Eget nunc lobortis mattis aliquam faucibus purus in massa tempor.</p>
     </div>
   </div>
   </div>
