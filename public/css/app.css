@@ -8419,6 +8419,7 @@ button.close {
 .nav-top-right a:hover {
   text-decoration: none;
   color: #004ea0;
+  border-bottom: #004ea0;
 }
 
 #nav {
