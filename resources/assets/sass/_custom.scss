@@ -141,14 +141,30 @@ font-size: 1.4vw;
 
 .containerA
 {
-  padding: 3%;
   background-color: white;
 }
 
 .containerB
 {
-  padding: 3%;
   background-color: #eaf0fc;
+}
+
+
+.text-content
+{
+  padding: 3%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.text-content h4
+{
+    line-height:1.80em;
+}
+
+.doctor-desc
+{
+  margin: 3%;
 }
 
 .footer {
@@ -200,4 +216,14 @@ font-size: 1.4vw;
   display: inline-block;
 }
 
-//Carousel for Testimonials
+.hover-doctor:hover
+{
+box-shadow: 0 4px 50px #aaaaaa;
+}
+
+.doc-pic
+{
+  height: 220px;
+  width: 260px;
+   background-size: cover;
+}

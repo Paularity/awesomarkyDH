@@ -8481,13 +8481,25 @@ button.close {
 }
 
 .containerA {
-  padding: 3%;
   background-color: white;
 }
 
 .containerB {
-  padding: 3%;
   background-color: #eaf0fc;
+}
+
+.text-content {
+  padding: 3%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.text-content h4 {
+  line-height: 1.80em;
+}
+
+.doctor-desc {
+  margin: 3%;
 }
 
 .footer {
@@ -8542,6 +8554,17 @@ button.close {
 
 .icon-wrapper {
   display: inline-block;
+}
+
+.hover-doctor:hover {
+  -webkit-box-shadow: 0 4px 50px #aaaaaa;
+          box-shadow: 0 4px 50px #aaaaaa;
+}
+
+.doc-pic {
+  height: 220px;
+  width: 260px;
+  background-size: cover;
 }
 
 /*!
