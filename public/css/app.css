@@ -8368,6 +8368,19 @@ button.close {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 300px !important;
+    height: 130px !important;
+    margin-top: -35px;
+  }
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-top: 0px solid #2c3e50;
+}
+
 .navbar-default {
   background: #2c3e50;
   margin: 0px auto;
