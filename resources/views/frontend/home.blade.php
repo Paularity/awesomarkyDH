@@ -139,5 +139,5 @@ var slide = 1;
 
 
 </div>
-
+</div>
 @endsection

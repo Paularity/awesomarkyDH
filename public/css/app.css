@@ -8378,12 +8378,6 @@ button.close {
   padding: 0px 0px;
 }
 
-.row-footer {
-  margin: 0px auto;
-  padding: 20px 0px;
-  background-color: #EBEDEF;
-}
-
 .navbar-default {
   background: #2c3e50;
   margin: 0px auto;
@@ -8459,60 +8453,6 @@ button.close {
 .active {
   color: "#004ea0";
   border-bottom: 2px solid white;
-}
-
-.hoverAnim a {
-  color: white;
-  position: relative;
-}
-
-.hoverAnim a:hover:after {
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-
-.hoverAnim a:after {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  content: '';
-  position: absolute;
-  height: .05rem;
-  width: 100%;
-  bottom: -.1rem;
-  left: 0;
-  -webkit-transition: 200ms ease-in;
-  transition: 200ms ease-in;
-  background: #004ea0;
-}
-
-.sliderContainer {
-  float: left;
-  width: 100%;
-  height: 500px;
-  background: #f2f2f2;
-}
-
-.sliderContainer img {
-  float: left;
-  width: 100%;
-  height: 100%;
-}
-
-.sliderDiv {
-  position: relative;
-  margin: 15% 0 0 0;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: inherit;
-  overflow: hidden;
-  background-size: cover !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-  text-align: center;
-  line-height: 500px;
-  color: #ffffff;
-  font-size: 50px;
 }
 
 .containerA {

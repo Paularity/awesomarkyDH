@@ -24,11 +24,7 @@
     margin: 0px auto;
     padding: 0px 0px;
 }
-.row-footer {
-    margin: 0px auto;
-    padding: 20px 0px;
-    background-color:#EBEDEF;
-}
+
 .navbar-default {
     background:#2c3e50;
     margin: 0px auto;
@@ -97,135 +93,6 @@
 color: "#004ea0";
 border-bottom: 2px solid white;
 
-}
-
-//
-// #nav-top
-// {
-//   list-style-type: none;
-//   margin: 0;
-//   padding: 0;
-//   overflow: hidden;
-//   background-color: rgb(86,176,210);
-//
-// }
-//
-// #nav-top li {
-// font-size: 1.4vw;
-// }
-
-.hoverAnim{
-  a{
-    color: white;
-    position:relative;
-    &:hover:after{
-       transform:scale(1);
-    }
-  }
-  a:after{
-    transform:scale(0);
-    content:'';
-    position:absolute;
-    height:.05rem;
-    width:100%;
-    bottom:-.1rem;
-    left:0;
-    transition:200ms ease-in;
-    background:#004ea0;
-  }
-}
-
-// .nav-top-left
-// {
-//   float: left;
-//   margin:1%;
-//   width: 20%;
-// }
-//
-// .nav-top-left img
-// {
-//   float: left;
-//   width:30%;
-//   height:30%;
-//   margin:1%;
-// }
-//
-// .nav-top-right
-// {
-//   float: right;
-//   margin: 3% 3% 3% 0;
-// }
-//
-// .nav-top-right a {
-//     display: block;
-//     text-align: center;
-// }
-//
-// .nav-top-right a:hover {
-//     text-decoration: none;
-//     color: #004ea0;
-//     border-bottom: #004ea0;
-// }
-//
-//
-//
-// #nav {
-//     list-style-type: none;
-//     margin: 0;
-//     padding: 0;
-//     overflow: hidden;
-//     background-color: #d6e5ff;
-//     opacity: .50;
-// }
-//
-// #nav li {
-//     float: left;
-//     color:black;
-//     font-size: 16px;
-//     margin: 1% 1% 1% 1%;
-//
-// }
-//
-// #nav li a {
-//     color: black;
-//     text-align: center;
-//     text-decoration: none;
-// }
-//
-// #nav li a:hover {
-//     text-decoration: none;
-//     color: #2a93c9;
-// }
-
-//Slideshow
-.sliderContainer{
-    float: left;
-    width: 100%;
-    height: 500px;
-    background: #f2f2f2;
-}
-
-.sliderContainer img{
-    float: left;
-    width: 100%;
-    height: 100%;
-}
-
-.sliderDiv{
-    position: relative;
-    margin: 15% 0 0 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: inherit;
-    overflow: hidden;
-    background-size: cover !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-   text-align: center;
-    line-height: 500px;
-    color: #ffffff;
-    font-size: 50px;
 }
 
 .containerA
