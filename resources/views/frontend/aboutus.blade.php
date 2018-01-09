@@ -4,6 +4,9 @@
 <div class="row">
   <div class="col-md-6">
     <img src="images/hospital.jpg" alt="Docs" style="height: 100%; width: 100%; background-size: cover">
+
+
+    <h2>Lorem Lorem Lorem</h2>
   </div>
   <div class="col-md-6 text-content">
     <h2> <strong>Lorem ipsum dolor</strong> </h2>
