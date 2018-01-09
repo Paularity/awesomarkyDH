@@ -20,7 +20,7 @@
 
   <div class="row">
     <div class="col-md-3 hover-doctor" style="padding:3%">
-      <div class="row">
+      <div class="row text-center">
         <img src="images/doc1.jpg" alt="Docs" class="doc-pic">
       </div>
       <div class="row text-center">
@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="col-md-3 hover-doctor" style="padding:3%">
-      <div class="row">
+      <div class="row text-center">
         <img src="images/doc2.png" alt="Docs" class="doc-pic">
       </div>
       <div class="row text-center">
@@ -42,7 +42,7 @@
       </div>
     </div>
     <div class="col-md-3 hover-doctor" style="padding:3%">
-      <div class="row">
+      <div class="row text-center">
         <img src="images/doc3.jpg" alt="Docs" class="doc-pic">
       </div>
       <div class="row text-center">
@@ -53,7 +53,7 @@
       </div>
     </div>
     <div class="col-md-3 hover-doctor" style="padding:3%">
-      <div class="row">
+      <div class="row text-center">
         <img src="images/doc4.jpg" alt="Docs" class="doc-pic">
       </div>
       <div class="row text-center">

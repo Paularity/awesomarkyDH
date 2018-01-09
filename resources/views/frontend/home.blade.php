@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+<div style="margin-bottom:35%;">
 <div class="sliderContainer">
   <div class="sliderDiv" id="slide1"><img src="images/slide1.jpg" /></div>
   <div class="sliderDiv" id="slide2"><img src="images/slide2.jpg" /></div>
@@ -23,14 +24,13 @@ var slide = 1;
     }
     slider();
 </script>
+</div>
 
 <div class="containerA text-content">
-  <h1>Welcome</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 
 <div class="containerB text-content">
-  <h1>Something here</h1>
+  <h1>Welcome</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 

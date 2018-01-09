@@ -114,7 +114,6 @@ font-size: 1.4vw;
 
 //Slideshow
 .sliderContainer{
-  margin-bottom: 1%;
     float: left;
     width: 100%;
     height: 500px;
@@ -128,8 +127,8 @@ font-size: 1.4vw;
 }
 
 .sliderDiv{
-    position: relative;
-    margin: 0 0 0 0;
+    position: absolute;
+    margin: 15% 0 0 0;
     top: 0;
     left: 0;
     width: 100%;
