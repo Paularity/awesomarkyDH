@@ -1,11 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-<div style="margin-bottom:35%;">
+
+<div class="container-fluid">
 
   <div class="container">
     <div class="row">
-        <div class="col-md-12" width="100%">
+        <div class="col-md-12">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>

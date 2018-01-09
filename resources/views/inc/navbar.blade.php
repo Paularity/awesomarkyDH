@@ -1,27 +1,26 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
+
+
         <div class="navbar-header">
             <!-- make navbar responsive -->
+              <a class = "navbar-brand" href="{{ URL::to('/') }}"><img class = "logo"style="width:15%;position:relative;"src="images/logo.png" alt=""></a>
+                </div>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#homeid">Logo</a>
-        </div>
-        <div class="navbar-collapse collapse" id="navbar">
-            <ul class="nav navbar-nav">
-                <li><a href="#homeid"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                <li><a href="#proj"><span class="glyphicon glyphicon-briefcase"></span> Projects</a></li>
-                <li><a href="#info"><span class="glyphicon glyphicon-info-sign"></span> Info</a></li>
-                <li><a href="#contact"><i class="fa fa-envelope-o"></i> Contact</a></li>
+
+        <div class="navbar-collapse collapse" id="navbar" >
+            <ul class="nav navbar-nav" style="float:right">
+                <li><a class="{{ Request::is('/') ? 'active' : '' }}" href="{{ URL::to('/') }}"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a class="{{ Request::is('departments') ? 'active' : '' }}" href="{{ URL::to('departments') }}"><span class="	fa fa-hospital-o"></span> Departments</a></li>
+                <li><a class="{{ Request::is('doctors') ? 'active' : '' }}" href="{{ URL::to('doctors') }}"><span class="fa fa-user-md"></span> Doctors</a></li>
+                <li><a class="{{ Request::is('about-us') ? 'active' : '' }}" href="{{ URL::to('about-us') }}"></i> About Us</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a class="btn" href="https://gr.linkedin.com/in/papadopoulospavlos" target=_blank ><i class="fa fa-linkedin fa-lg"></i></a> </li>
-                <li><a class="btn" href="https://twitter.com/Paul_stdio" target=_blank ><i class="fa fa-twitter fa-lg"></i></a> </li>
-                <li><a class="btn" href="mailto:ppapad_33@yahoo.gr"><i class="fa fa-envelope-o fa-lg"></i></a> </li>
-            </ul>
+
         </div>
     </div>
 </nav>
