@@ -8,7 +8,7 @@
     <h4>Ut auctor nulla ac tellus tempor pulvinar. Integer facilisis dapibus ante eu interdum. Cras ligula augue, rutrum at lacus et, viverra porta urna. Curabitur maximus erat mi. Integer ultricies pulvinar tempus. Cras scelerisque pulvinar quam in lacinia. Duis gravida eu enim in fermentum. Aenean tempor iaculis commodo. Integer nec sem sit amet felis vulputate rhoncus. Sed ante nunc, dictum vel libero in.</h4>
   </div>
   <div class="col-md-6">
-    <img src="images/slide3.jpg" alt="Docs" style="height: 100%; width: 100%; background-size: cover">
+    <img src="images/doctors.jpg" alt="Docs" style="height: 100%; width: 100%; background-size: cover">
   </div>
 </div>
 

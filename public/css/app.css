@@ -8368,16 +8368,6 @@ button.close {
   }
 }
 
-.row-line {
-  border-bottom: 1px groove;
-  margin-bottom: 0px;
-}
-
-.row-header {
-  margin: 0px auto;
-  padding: 0px 0px;
-}
-
 .navbar-default {
   background: #2c3e50;
   margin: 0px auto;
@@ -8396,54 +8386,6 @@ button.close {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #777;
-}
-
-.navbar-right .fa-linkedin:hover {
-  color: #007BB6;
-}
-
-.navbar-right .fa-twitter:hover {
-  color: #55ACEE;
-}
-
-.navbar-right .fa-envelope-o:hover {
-  color: purple;
-}
-
-.navbar-right .btn {
-  height: 42px;
-}
-
-.jumbotron {
-  margin: 0px auto;
-  padding: 70px 30px;
-  background-color: royalblue;
-  color: floralwhite;
-  text-shadow: black 0.2em 0.2em 0.2em;
-}
-
-.row-image {
-  margin-top: 5%;
-}
-
-.row-image h3 {
-  text-align: left;
-  margin-top: 30%;
-  color: #000000;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-}
-
-@media (max-width: 767px) {
-  .row-image {
-    margin-top: -100px;
-  }
-}
-
-@media (max-width: 580px) {
-  .jumbotron {
-    height: 208px;
-  }
 }
 
 .pads {
@@ -8484,7 +8426,7 @@ button.close {
   padding-top: 0;
   position: relative;
   width: 100%;
-  background-color: #8cd3f2;
+  background-color: #2c3e50;
   text-align: center;
 }
 
