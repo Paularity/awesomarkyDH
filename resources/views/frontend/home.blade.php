@@ -14,7 +14,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="http://placehold.it/1200x500/3498db/2980b9" alt="First slide">
+                        <img src="images/slides/slide1.jpg" alt="First slide">
                         <div class="carousel-caption">
                             <h3>
                                 First slide</h3>
@@ -23,7 +23,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="http://placehold.it/1200x500/9b59b6/8e44ad" alt="Second slide">
+                        <img src="images/slides/slide2.jpg" alt="Second slide">
                         <div class="carousel-caption">
                             <h3>
                                 Second slide</h3>
@@ -32,7 +32,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="http://placehold.it/1200x500/34495e/2c3e50" alt="Third slide">
+                        <img src="images/slides/slide3.jpg" alt="Third slide">
                         <div class="carousel-caption">
                             <h3>
                                 Third slide</h3>
@@ -69,7 +69,7 @@ var slide = 1;
 
 
 <div class="containerB text-content">
-  <h1>Welcome</h1>
+  <h2>Welcome</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 

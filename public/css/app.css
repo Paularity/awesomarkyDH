@@ -8368,10 +8368,6 @@ button.close {
   }
 }
 
-h1 {
-  font-family: bebas neue;
-}
-
 .row-line {
   border-bottom: 1px groove;
   margin-bottom: 0px;
@@ -8439,7 +8435,6 @@ h1 {
 .row-image h3 {
   text-align: left;
   margin-top: 30%;
-  font-family: monospace;
   color: #000000;
   opacity: 0.6;
   filter: alpha(opacity=60);
@@ -8471,7 +8466,6 @@ h1 {
 
 .well h3 {
   text-align: left;
-  font-family: BRANDON GROTESQUE;
 }
 
 body {
@@ -8482,11 +8476,6 @@ body {
 .projects {
   margin-top: 30px;
   border-bottom: 1px groove;
-}
-
-.projects h1 {
-  font-family: libre baskerville;
-  font-size: 280%;
 }
 
 .row-info h2 {
@@ -8519,7 +8508,6 @@ body {
 label {
   font-size: 90%;
   color: #404040;
-  font-family: sans-serif;
 }
 
 .btn.btn-info {
@@ -8736,7 +8724,6 @@ p.description_content {
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   color: #9e9e9e;
   display: inline-block;
-  font-family: 'Roboto', Arial, sans-serif;
   font-size: 16px;
   margin: 35px 7px 10px;
   max-width: 310px;
@@ -8770,7 +8757,6 @@ p.description_content {
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   color: #2a88c9;
   content: "\F10E";
-  font-family: 'FontAwesome';
   font-size: 32px;
   font-style: normal;
   left: 50%;
