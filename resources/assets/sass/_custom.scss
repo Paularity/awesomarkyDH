@@ -11,95 +11,147 @@
 
 
 }
-body{
-  background-color: #CCC;
+@media (max-width: 767px) {
+    .navbar-nav.navbar-right {
+        float: left!important;
+    }
 }
-nav ul li a {
-  color: #FFF;
-  text-decoration: none;
+h1{
+    font-family: bebas neue;
 }
-/* End General */
+.row-line{
+    border-bottom: 1px groove;
+    margin-bottom: 0px;
+}
+.row-header {
+    margin: 0px auto;
+    padding: 0px 0px;
+}
+.row-footer {
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color:#EBEDEF;
+}
+.navbar-default {
+    background:#2c3e50;
+    margin: 0px auto;
+    color: #ffffff;
+    border-bottom: none;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
 
-/* Start Navbar */
-nav ul {
-  background-color: #bf0000;
+.navbar-default .navbar-nav li a {
+    color: antiquewhite;
 }
-nav ul > li {
-  padding: 15px;
-  display: inline-block;
-  transition: all .3s ease;
-  margin-left: -5px
-}
-nav ul > li:not(:last-of-type):hover {
-  background-color: #222
-}
-nav ul > li:first-of-type {
-  background-color: #222
-}
-nav ul > li:last-of-type {
-  float: right;
-}
-nav ul > li:last-of-type a .fa {
-  font-size: 21px
-}
-/* End Navbar */
 
-/* Start Menue Right */
-nav ul > li:last-of-type {
-  position: relative;
-  display: none
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #777;
 }
-nav ul > ol {
-  position: absolute;
-  top: 49px;
-  right: 0;
-  background: #333;
-  text-align: center;
-  list-style: none;
-  display: none
+.navbar-right .fa-linkedin:hover{
+    color: #007BB6;
 }
-nav ul > ol > li {
-  width: 100vw;
-  color: #FFF;
-  margin: 0;
-  padding: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  transition: all .3s ease;
+.navbar-right .fa-twitter:hover {
+    color: #55ACEE;
 }
-nav ul > ol > li:hover a {
-  margin: 20px;
+.navbar-right .fa-envelope-o:hover{
+    color: purple;
 }
-nav ul > ol > li:hover {
-  background: #000;
-  cursor: pointer
+.navbar-right .btn {
+    height: 42px;
 }
-nav ul input {
-  opacity: .7;
-  padding: 5px;
-  flot: right;
-  display: none
+.jumbotron {
+    margin: 0px auto;
+    padding: 70px 30px;
+    background-color: royalblue;
+    color: floralwhite;
+    text-shadow: black 0.2em 0.2em 0.2em;
 }
-/* Start Menue Right */
+.row-image{
+    margin-top: 5%;
+}
+.row-image h3 {
+    text-align: left;
+    margin-top: 30%;
+    font-family: monospace;
+    color:#000000;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+@media (max-width: 767px){
+    .row-image{
+        margin-top: -100px;
+    }
 
-/* Start Media Query */
-@media screen and (max-width:680px){
-  nav ul > li:not(:first-child) {
-    display:none
-  }
-  nav ul > li:last-of-type {
-    display: block
-  }
-  nav ul input {
-    display: inline
-  }
 }
-@media screen and (min-width:680px) {
-  nav ul > ol > li {
-    display:none
-  }
+@media (max-width: 580px){
+    .jumbotron{
+       height:208px;
+    }
 }
-/* End Media Query */
+.row-home{
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+.well-info{
+    background-image:url("https://i.imgur.com/fMUM6fh.jpg");
+    color:#e6e6e6;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.well h3{
+    text-align:left;
+    font-family: BRANDON GROTESQUE;
+}
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+.projects{
+    margin-top: 30px;
+    border-bottom: 1px groove;
+}
+.projects h1{
+    font-family: libre baskerville;
+    font-size: 280%;
+}
+.row-info h2{
+    text-align: left;
+}
+.row-info{
+    margin-bottom: -25px;
+}
+.row-contact{
+    color:black;
+}
+#firstname, #lastname, #email, #subject{
+    background-color:#FAFAFA;
+    height: 42px;
+    width: 380px;
+    border: 1px solid #cccccc;
+}
+#textarea{
+    background-color:#FAFAFA;
+    border: 1px solid #cccccc;
+}
+label{
+    font-size: 90%;
+    color:#404040;
+    font-family: sans-serif;
+}
+.btn.btn-info {
+    border-radius:0;
+    background: #525252;
+    border-color: black;
+    color: azure;
+}
+.subm{
+    margin: 0px;
+    background-color: transparent;
+    text-align: center;
+}
 
 .pads
 {

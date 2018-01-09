@@ -54,4 +54,6 @@
   <p style="float:right;margin:1% 1% 1% 1%">Powered by CP33</p>
 </div>
 </body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.bundle.min.js"></script>
 </html>

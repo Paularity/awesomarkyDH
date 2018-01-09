@@ -1,47 +1,36 @@
-<nav>
-  <ul>
-    <li><a href="#">Home </a></li>
-    <li><a href="#">About </a></li>
-    <li><a href="#">Services </a></li>
-    <li><a href="#">Contact </a></li>
-    <li><a href="#">Images </a></li>
-    <li><a href="#">Test </a></li>
-    <li>
-      <a href="#">
-        <i class="fa fa-bars"></i>
-      </a>
-    </li>
-    <input type="search" />
-  </ul>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <!-- make navbar responsive -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#homeid">Logo</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#homeid"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="#proj"><span class="glyphicon glyphicon-briefcase"></span> Projects</a></li>
+                <li><a href="#info"><span class="glyphicon glyphicon-info-sign"></span> Info</a></li>
+                <li><a href="#contact"><i class="fa fa-envelope-o"></i> Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="btn" href="https://gr.linkedin.com/in/papadopoulospavlos" target=_blank ><i class="fa fa-linkedin fa-lg"></i></a> </li>
+                <li><a class="btn" href="https://twitter.com/Paul_stdio" target=_blank ><i class="fa fa-twitter fa-lg"></i></a> </li>
+                <li><a class="btn" href="mailto:ppapad_33@yahoo.gr"><i class="fa fa-envelope-o fa-lg"></i></a> </li>
+            </ul>
+        </div>
+    </div>
 </nav>
-
 <script>
-$(function() {
-var ulLi = $('nav ul > li'),
-  fa = $('nav ul > li:last-of-type a .fa');
-
-$('nav ul').append('<ol></ol>');
-
-$('nav').each(function() {
- for (var i=0; i <= ulLi.length - 3; i++) {
-   $('nav ul > ol').append("<li>"+ i +"</li>");
-   $('nav ul > ol > li').eq(i).html(ulLi.eq(i+1).html());
- }
-});
-
-$('nav ul > li:last-of-type').on('click', function() {
-fa.toggleClass('fa-bars');
-fa.toggleClass('fa-times');
-$(this).parent().children('ol').slideToggle(500);
-});
-});
-
-// Em An
-// 10/10/2016
-// https://codepen.io/anon/pen/qaoxyA
-// https://codepen.io/Em-An/pen/LRdjwp
+$('#navbar').click('li', function() {
+        $('#navbar').collapse('hide');
+    });
+$("#content a[href^='http://']").attr("target","_blank");
 </script>
-
 <!-- <ul id="nav">
 
     <li>Location: Boston Celtics, USA</li>
